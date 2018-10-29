@@ -1,0 +1,269 @@
+/* .rum {
+    background-image: url("grafik/room.jpg");
+    background-size: cover;
+    width: 80vw;
+    height: 45vw;
+    margin: auto;
+    position: relative;
+    z-index: -4
+}
+
+.bord {
+    background-image: url("grafik/bord.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 28vw;
+    height: 23vw;
+    position: absolute;
+    top: 21vw;
+    left: 20vw;
+
+}
+
+.stol {
+    background-image: url("grafik/chair.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 24.6vw;
+    position: absolute;
+    top: 18vw;
+    left: 32vw;
+    z-index: -1
+}
+
+.skaal {
+    background-image: url("grafik/skaal.png");
+    background-size: 100%;
+    width: 8vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 20vw;
+    left: 30vw;
+
+}
+
+.kvinde {
+    background-image: url("grafik/kvinde.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 37.8vw;
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+
+
+}
+
+.mand {
+    background-image: url("grafik/mand.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 38.6vw;
+    position: absolute;
+    top: 3vw;
+    left: 14vw;
+    z-index: -3;
+} */
+
+#menu_background {
+    background-image: url(Scene_1600.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
+    position: absolute;
+    z-index: -10;
+}
+
+#trae {
+    background-image: url(Tr%C3%A6.svg);
+    background-size: 100%;
+    width: 8vw;
+    height: 13.1vw;
+    position: absolute;
+    top: 25.2vw;
+    left: 40vw;
+}
+
+#trae2 {
+    background-image: url(Tr%C3%A6.svg);
+    background-size: 100%;
+    width: 10vw;
+    height: 16.4vw;
+    position: absolute;
+    top: 21.9vw;
+    left: 48vw;
+}
+
+#trae3 {
+    background-image: url(Tr%C3%A6.svg);
+    background-size: 100%;
+    width: 10vw;
+    height: 16.4vw;
+    position: absolute;
+    top: 21.9vw;
+    left: 80vw;
+}
+
+#trae4 {
+    background-image: url(Tr%C3%A6.svg);
+    background-size: 100%;
+    width: 8vw;
+    height: 13.1vw;
+    position: absolute;
+    top: 25.2vw;
+    left: 90vw;
+}
+
+#bil_taxi {
+    background-image: url(Taxi.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10.5vw;
+    position: absolute;
+    top: 32.5vw;
+    left: 10vw;
+
+}
+
+#bil_gul {
+    background-image: url(Gul%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 21.7vw;
+    left: 70vw;
+
+    display: none;
+
+}
+
+#bil_gron {
+    background-image: url(Gr%C3%B8n%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 41.7vw;
+    left: 30vw;
+
+    display: none;
+}
+
+#bil_rod {
+    background-image: url(R%C3%B8d%20sportsvogn.svg);
+    background-size: 100%;
+    width: 23vw;
+    height: 8.9vw;
+    position: absolute;
+    top: 46.7vw;
+    left: 30vw;
+}
+
+#bil_blaa {
+    background-image: url(Bl%C3%A5%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 41.7vw;
+    left: 60vw;
+
+    display: none;
+}
+
+#bil_hippie {
+    background-image: url(Hippie%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 12.3vw;
+    position: absolute;
+    top: 42.7vw;
+    left: 80vw;
+}
+
+#bil_kloakmanden {
+    background-image: url(Kloakmanden.svg);
+    background-size: 100%;
+    width: 22.5vw;
+    height: 13.2vw;
+    position: absolute;
+    top: 30.9vw;
+    left: 50vw;
+
+}
+
+#points {
+    background-image: url(UI_score.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 10vw;
+    position: absolute;
+    top: 5vw;
+    left: 62vw;
+}
+
+#time {
+    background-image: url(UI_time.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 10vw;
+    position: absolute;
+    top: 5vw;
+    left: 82vw;
+
+}
+
+#start {
+    background-image: url(UI_play_time.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 9.1vw;
+    position: absolute;
+    top: 5vw;
+    left: 45vw;
+
+    display: none;
+
+}
+
+#settings {
+    background-image: url(UI_music_sounds.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 9.1vw;
+    position: absolute;
+    top: 5vw;
+    left: 46vw;
+
+    display: none;
+}
+
+#gameover {
+    background-image: url(UI_gameover_score.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 11.5vw;
+    position: absolute;
+    top: 5vw;
+    left: 44vw;
+
+    display: none;
+}
+
+#back {
+    background-image: url(UI_back.svg);
+    background-size: 100%;
+    width: 15vw;
+    height: 4.8vw;
+    position: absolute;
+    top: 5vw;
+    left: 84vw;
+
+    display: none;
+}
