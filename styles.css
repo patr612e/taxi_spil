@@ -1,83 +1,28 @@
-/* .rum {
-    background-image: url("grafik/room.jpg");
-    background-size: cover;
-    width: 80vw;
-    height: 45vw;
-    margin: auto;
+body {
+    margin: 0;
+}
+
+/* *************BAGGRUND************* */
+
+#screen {
     position: relative;
-    z-index: -4
-}
-
-.bord {
-    background-image: url("grafik/bord.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 28vw;
-    height: 23vw;
-    position: absolute;
-    top: 21vw;
-    left: 20vw;
+    width: 100vw;
+    height: 56.25vw;
 
 }
 
-.stol {
-    background-image: url("grafik/chair.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 16vw;
-    height: 24.6vw;
-    position: absolute;
-    top: 18vw;
-    left: 32vw;
-    z-index: -1
-}
-
-.skaal {
-    background-image: url("grafik/skaal.png");
-    background-size: 100%;
-    width: 8vw;
-    height: 3.1vw;
-    position: absolute;
-    top: 20vw;
-    left: 30vw;
-
-}
-
-.kvinde {
-    background-image: url("grafik/kvinde.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 16vw;
-    height: 37.8vw;
-    position: absolute;
-    top: 5vw;
-    left: 8vw;
-
-
-}
-
-.mand {
-    background-image: url("grafik/mand.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 16vw;
-    height: 38.6vw;
-    position: absolute;
-    top: 3vw;
-    left: 14vw;
-    z-index: -3;
-} */
 
 #menu_background {
     background-image: url(Scene_1600.svg);
-    background-repeat: no-repeat;
     background-size: 100%;
     width: 100vw;
-    height: 100vw;
-    margin: auto;
+    height: 56.25vw;
     position: absolute;
-    z-index: -10;
 }
+
+
+/*************ELEMENTS****************/
+
 
 #trae {
     background-image: url(Tr%C3%A6.svg);
@@ -85,7 +30,7 @@
     width: 8vw;
     height: 13.1vw;
     position: absolute;
-    top: 25.2vw;
+    top: 24.7vw;
     left: 40vw;
 }
 
@@ -105,7 +50,7 @@
     width: 10vw;
     height: 16.4vw;
     position: absolute;
-    top: 21.9vw;
+    top: 21.4vw;
     left: 80vw;
 }
 
@@ -115,7 +60,7 @@
     width: 8vw;
     height: 13.1vw;
     position: absolute;
-    top: 25.2vw;
+    top: 24.7vw;
     left: 90vw;
 }
 
@@ -163,6 +108,8 @@
     position: absolute;
     top: 46.7vw;
     left: 30vw;
+
+    transform: scaleX(-1)
 }
 
 #bil_blaa {
@@ -195,6 +142,10 @@
     position: absolute;
     top: 30.9vw;
     left: 50vw;
+
+
+    /*     ************UI************* */
+
 
 }
 
@@ -266,4 +217,83 @@
     left: 84vw;
 
     display: none;
+}
+
+
+
+/**************ANIMATIONER****************/
+
+
+.taxi_korer {
+    animation-name: taxi_korer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes taxi_korer {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+
+.rod_korer {
+    animation-name: rod_korer;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rod_korer {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw
+    }
+}
+
+.hippie_korer {
+    animation-name: hippie_korer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes hippie_korer {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+.kloakmanden_korer {
+    animation-name: kloakmanden_korer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes kloakmanden_korer {
+
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
 }
