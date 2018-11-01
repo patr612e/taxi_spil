@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,46 +12,55 @@
 
     <div id="screen">
 
-        <div id="menu_background">
-
-
-        </div>
+        <div id="menu_background"></div>
 
         <div id="game">
 
 
+            <div id="game_background"></div>
+
+            <div id="game_elements">
+
+                <div id="trae"></div>
+                <div id="trae2"></div>
+                <div id="trae3"></div>
+                <div id="trae4"></div>
+                <div id="bil_taxi" class="taxi_korer"></div>
+                <div id="bil_gul" class="gul_korer"></div>
+                <div id="bil_rod" class="rod_korer"></div>
+                <div id="bil_blaa" class="blaa_korer"></div>
+                <div id="bil_gron" class="gron_korer"></div>
+                <div id="bil_hippie" class="hippie_korer"></div>
+                <div id="bil_kloakmanden" class="kloakmanden_korer"></div>
+
+            </div>
+
+            <div id="game_ui">
+
+                <div id="points"></div>
+                <div id="time"></div>
+            </div>
+
+
         </div>
 
-        <div id="game_elements">
 
-            <div id="trae"></div>
-            <div id="trae2"></div>
-            <div id="trae3"></div>
-            <div id="trae4"></div>
-            <div id="bil_taxi" class="taxi_korer"></div>
-            <div id="bil_gul"></div>
-            <div id="bil_rod" class="rod_korer"></div>
-            <div id="bil_blaa"></div>
-            <div id="bil_gron"></div>
-            <div id="bil_hippie" class="hippie_korer"></div>
-            <div id="bil_kloakmanden" class="kloakmanden_korer"></div>
-
+        <div id="start" class="hide">
+            <div id="play"></div>
+            <div id="settings_knap"></div>
         </div>
-
-        <div id="game_ui">
-            <div id="points"></div>
-            <div id="time"></div>
+        <div id="settings" class="hide">
+            <div id="music"></div>
+            <div id="sounds"></div>
+            <div id="back"></div>
         </div>
-
-
-    <div id="start"></div>
-    <div id="settings"></div>
-    <div id="gameover"></div>
-    <div id="back"></div>
+        <div id="gameover" class="hide"></div>
+        <div id="back" class="hide"></div>
 
     </div>
 
-
+    <script src="script.js"></script>
 
 </body>
+
 </html>
