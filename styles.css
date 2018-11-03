@@ -84,7 +84,22 @@ body {
     left: 90vw;
 }
 
-#bil_taxi {
+
+
+.taxi {
+    background-image: url(Taxi.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10.5vw;
+    position: absolute;
+    top: 32.5vw;
+    left: 10vw;
+    cursor: pointer;
+
+}
+
+.taxi_korer1 {
+
     background-image: url(Taxi.svg);
     background-size: 100%;
     width: 16.5vw;
@@ -93,7 +108,388 @@ body {
     top: 32.5vw;
     left: 10vw;
 
+    animation-name: taxi_korer1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
+
+
+@keyframes taxi_korer1 {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+
+.taxi_korer2 {
+
+    background-image: url(Taxi.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10.5vw;
+    position: absolute;
+    top: 44.5vw;
+    left: 10vw;
+
+    transform: scaleX(-1);
+
+    animation-name: taxi_korer2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes taxi_korer2 {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+.kloakmanden {
+    background-image: url(Kloakmanden.svg);
+    background-size: 100%;
+    width: 22.5vw;
+    height: 13.2vw;
+    position: absolute;
+    top: 30.9vw;
+    left: 50vw;
+    cursor: pointer;
+
+}
+
+.kloakmanden_korer1 {
+    animation-name: kloakmanden_korer1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Kloakmanden.svg);
+    background-size: 100%;
+    width: 22.5vw;
+    height: 13.2vw;
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+}
+
+
+@keyframes kloakmanden_korer1 {
+
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+
+.kloakmanden_korer2 {
+    animation-name: kloakmanden_korer2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Kloakmanden.svg);
+    background-size: 100%;
+    width: 22.5vw;
+    height: 13.2vw;
+    position: absolute;
+    top: 42.5vw;
+    left: 50vw;
+    transform: scaleX(-1);
+}
+
+
+@keyframes kloakmanden_korer2 {
+
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+.hippie {
+    background-image: url(Hippie%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 12.3vw;
+    position: absolute;
+    top: 42.7vw;
+    left: 80vw;
+    cursor: pointer;
+}
+
+.hippie_korer1 {
+    animation-name: hippie_korer1;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Hippie%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 12.3vw;
+    position: absolute;
+    top: 43.7vw;
+    left: 80vw;
+}
+
+
+@keyframes hippie_korer1 {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+.hippie_korer2 {
+    animation-name: hippie_korer2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Hippie%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 12.3vw;
+    position: absolute;
+    top: 30.7vw;
+    left: 80vw;
+}
+
+
+@keyframes hippie_korer2 {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+
+.gron {
+    background-image: url(Gr%C3%B8n%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 44.7vw;
+    left: 30vw;
+    cursor: pointer;
+}
+
+.gron_korer1 {
+    animation-name: gron_korer1;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Gr%C3%B8n%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 30vw;
+    left: 80vw;
+
+
+}
+
+
+@keyframes gron_korer1 {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+.gron_korer2 {
+    animation-name: gron_korer2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Gr%C3%B8n%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 45vw;
+    left: 80vw;
+    transform: scaleX(-1)
+}
+
+
+@keyframes gron_korer2 {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+
+.gul {
+    background-image: url(Gul%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 44.7vw;
+    left: 70vw;
+    cursor: pointer;
+}
+
+.gul_korer1 {
+    animation-name: gul_korer1;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Gul%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 45vw;
+    left: 80vw;
+    transform: scaleX(-1)
+}
+
+
+@keyframes gul_korer1 {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+
+.gul_korer2 {
+    animation-name: gul_korer2;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(Gul%20bil.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 32vw;
+    left: 80vw;
+
+}
+
+
+@keyframes gul_korer2 {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+.rod {
+    background-image: url(R%C3%B8d%20sportsvogn.svg);
+    background-size: 100%;
+    width: 23vw;
+    height: 8.9vw;
+    position: absolute;
+    top: 46.7vw;
+    left: 30vw;
+    cursor: pointer;
+}
+
+.rod_korer1 {
+    animation-name: rod_korer1;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(R%C3%B8d%20sportsvogn.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 32vw;
+    left: 80vw;
+
+}
+
+
+@keyframes rod_korer1 {
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: -30vw;
+    }
+}
+
+.rod_korer2 {
+    animation-name: rod_korer2;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    background-image: url(R%C3%B8d%20sportsvogn.svg);
+    background-size: 100%;
+    width: 16.5vw;
+    height: 10vw;
+    position: absolute;
+    top: 32vw;
+    left: 80vw;
+
+}
+
+
+@keyframes rod_korer2 {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+/*
+
+
 
 #bil_gul {
     background-image: url(Gul%20bil.svg);
@@ -104,17 +500,6 @@ body {
     top: 44.7vw;
     left: 70vw;
 
-
-}
-
-#bil_gron {
-    background-image: url(Gr%C3%B8n%20bil.svg);
-    background-size: 100%;
-    width: 16.5vw;
-    height: 10vw;
-    position: absolute;
-    top: 44.7vw;
-    left: 30vw;
 
 }
 
@@ -140,25 +525,22 @@ body {
     left: 60vw;
 
 }
+*/
 
-#bil_hippie {
-    background-image: url(Hippie%20bil.svg);
-    background-size: 100%;
-    width: 16.5vw;
-    height: 12.3vw;
-    position: absolute;
-    top: 42.7vw;
-    left: 80vw;
-}
 
-#bil_kloakmanden {
-    background-image: url(Kloakmanden.svg);
-    background-size: 100%;
-    width: 22.5vw;
-    height: 13.2vw;
+
+
+
+
+
+#start {
+    background-image: url(Scene_1600.svg);
     position: absolute;
-    top: 30.9vw;
-    left: 50vw;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+    background-size: 100%;
 
 }
 
@@ -189,20 +571,28 @@ body {
     cursor: pointer;
 }
 
-/*     ************UI************* */
-
-
-}
-
-
-#points {
+#score {
     background-image: url(UI_score2.svg);
     background-size: 100%;
     width: 14vw;
     height: 4.5vw;
     position: absolute;
+
     top: 5vw;
     left: 60vw;
+
+
+}
+
+#score_tal {
+    font-size: 3vw;
+    text-align: right;
+    margin-right: 1vw;
+    margin-top: 0.4vw;
+    font-family: fantasy;
+
+
+
 }
 
 
@@ -212,61 +602,69 @@ body {
     width: 15vw;
     height: 5vw;
     position: absolute;
+
     top: 5vw;
     left: 80vw;
 
 }
 
+#time_tal {
+    font-size: 2.5vw;
+    text-align: right;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-family: fantasy;
+}
 
-#start {
+
+
+
+#settings {
     background-image: url(Scene_1600.svg);
+    background-size: 100%;
+    width: 100w;
+    height: 56.25vw;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 56.25vw;
-    background-size: 100%;
-
 
 
 }
 
-/*
-#settings {
-    background-image: url(UI_music_sounds.svg);
+#music {
+    background-image: url(UI_music.svg);
     background-size: 100%;
-    width: 15vw;
-    height: 9.1vw;
+    width: 20vw;
+    height: 5.2vw;
     position: absolute;
-    top: 5vw;
-    left: 46vw;
-
-    display: none;
+    top: 10vw;
+    left: 40vw;
+    cursor: pointer;
 }
 
-#gameover {
-    background-image: url(UI_gameover_score.svg);
+#sounds {
+    background-image: url(UI_sounds.svg);
     background-size: 100%;
-    width: 15vw;
-    height: 11.5vw;
+    width: 20vw;
+    height: 5.2vw;
     position: absolute;
-    top: 5vw;
-    left: 44vw;
-
-    display: none;
-*/
+    top: 16vw;
+    left: 40vw;
+    cursor: pointer;
 }
+
+
+
 
 #back {
     background-image: url(UI_back.svg);
     background-size: 100%;
-    width: 15vw;
-    height: 4.8vw;
+    width: 13vw;
+    height: 4.16vw;
     position: absolute;
-    top: 5vw;
-    left: 84vw;
-
-    display: none;
+    top: 23vw;
+    left: 40vw;
+    cursor: pointer;
 }
 
 
@@ -275,6 +673,7 @@ body {
 
 
 
+/*
 .taxi_korer {
     animation-name: taxi_korer;
     animation-duration: 8s;
@@ -312,42 +711,9 @@ body {
     }
 }
 
-.hippie_korer {
-    animation-name: hippie_korer;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 
 
-@keyframes hippie_korer {
-    from {
-        left: -30vw;
-    }
 
-    to {
-        left: 100vw;
-    }
-}
-
-.kloakmanden_korer {
-    animation-name: kloakmanden_korer;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-
-@keyframes kloakmanden_korer {
-
-    from {
-        left: 100vw;
-    }
-
-    to {
-        left: -30vw;
-    }
-}
 
 
 
@@ -405,6 +771,7 @@ body {
     }
 }
 
+*/
 
 
 
