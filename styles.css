@@ -447,6 +447,7 @@ body {
     top: 32vw;
     left: 80vw;
 
+
 }
 
 
@@ -548,7 +549,7 @@ body {
 #play {
     position: absolute;
     width: 25vw;
-    height: 6.4vw;
+    height: 6.5vw;
     background-image: url(UI_play.svg);
     background-size: 100%;
     left: 38vw;
@@ -561,7 +562,7 @@ body {
 #settings_knap {
     position: absolute;
     width: 25vw;
-    height: 6.4vw;
+    height: 6.5vw;
     background-image: url(UI_settings.svg);
     background-size: 100%;
     left: 38vw;
@@ -569,6 +570,22 @@ body {
     z-index: 1;
 
     cursor: pointer;
+
+
+}
+
+#settings_screen {
+    /*    margin: 0 auto;*/
+    text-align: center;
+    position: absolute;
+    width: 40vw;
+    height: 30vw;
+    background-color: rgba(0, 0, 0, 0.62);
+
+    top: 5vw;
+    left: 32vw;
+    border-radius: 2vw;
+    color: white;
 }
 
 #score {
@@ -631,31 +648,91 @@ body {
 
 }
 
-#music {
-    background-image: url(UI_music.svg);
+
+
+/*
+#settings_music {
+    background-image: url(UI_music_on.svg);
     background-size: 100%;
     width: 20vw;
     height: 5.2vw;
     position: absolute;
     top: 10vw;
-    left: 40vw;
+    left: 10vw;
     cursor: pointer;
 }
+*/
 
-#sounds {
-    background-image: url(UI_sounds.svg);
+
+
+/*
+#settings_sfx {
+    background-image: url(UI_sounds_on.svg);
     background-size: 100%;
     width: 20vw;
     height: 5.2vw;
     position: absolute;
-    top: 16vw;
-    left: 40vw;
+    top: 11vw;
+    left: 10vw;
+    cursor: pointer;
+}
+*/
+
+
+
+
+
+
+.on_music {
+    background-image: url(UI_music_on.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 5.2vw;
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+    cursor: pointer;
+}
+
+
+.off_music {
+    background-image: url(UI_music_off.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 5.2vw;
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+    cursor: pointer;
+}
+
+.on_sfx {
+    background-image: url(UI_sounds_on.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 5.2vw;
+    position: absolute;
+    top: 11vw;
+    left: 10vw;
+    cursor: pointer;
+}
+
+.off_sfx {
+    background-image: url(UI_sounds_off.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 5.2vw;
+    position: absolute;
+    top: 11vw;
+    left: 10vw;
     cursor: pointer;
 }
 
 
 
 
+
+/*
 #back {
     background-image: url(UI_back.svg);
     background-size: 100%;
@@ -666,7 +743,18 @@ body {
     left: 40vw;
     cursor: pointer;
 }
+*/
 
+#settings_back {
+    background-image: url(UI_back.svg);
+    background-size: 100%;
+    width: 13vw;
+    height: 4.16vw;
+    position: absolute;
+    top: 18vw;
+    left: 10vw;
+    cursor: pointer;
+}
 
 
 /**************ANIMATIONER****************/

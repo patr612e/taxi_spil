@@ -27,10 +27,7 @@
                 <div id="trae4"></div>
                 <div id="bil_taxi" class="taxi taxi_korer1"></div>
                 <div id="bil_gul" class="gul gul_korer1"></div>
-
-                <!--
                 <div id="bil_rod" class="rod_korer"></div>
--->
                 <div id="bil_blaa" class="blaa blaa_korer1"></div>
                 <div id="bil_gron" class="gron gron_korer1"></div>
                 <div id="bil_hippie" class="hippie hippie_korer1"></div>
@@ -54,18 +51,31 @@
 
 
         <div id="start" class="hide">
-            <div id="play"></div>
-            <div id="settings_knap"></div>
+            <div id="play" class="show"></div>
+            <div id="settings_knap" class="show"></div>
         </div>
-        <div id="settings" class="hide">
-            <div id="music"></div>
-            <div id="sounds"></div>
-            <div id="back"></div>
+
+        <div id="settings"></div>
+
+        <div id="settings_screen" class="hide">
+
+            <div id="music">
+                <div id="settings_music" class="on_music"></div>
+            </div>
+            <div id="sounds">
+                <div id="settings_sfx" class="on_sfx"></div>
+            </div>
+            <div id="settings_back"></div>
         </div>
+
         <div id="gameover" class="hide"></div>
         <div id="back" class="hide"></div>
 
     </div>
+
+    <audio src="dyt.wav" id="dyt"></audio>
+    <audio src="%C3%A6ble.wav" id="aeble"></audio>
+    <audio src="street_music.wav" id="street_music"></audio>
 
     <script src="script.js"></script>
 
